@@ -1,0 +1,499 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* home pg */
+.container{
+    border: solid 0px;
+    width:1520px;
+    height: 100vh;
+    background: crimson;
+}
+.iam{
+    position:absolute;
+    left: 30%;
+    top: 30%;
+}
+.iam h1{
+    color: black;
+    font-size: 50px;
+}
+.iam span{
+    font-family: cursive;
+    color: whitesmoke;
+}
+.iam p{
+    color: #333;
+    font-size: 25px;
+}
+/* header part */
+.head{
+    border: solid 1px crimson;
+    height: 70px;
+    width: 1520px;
+    margin: auto;
+    text-align: center;
+    background-color:crimson; 
+}
+/* #004b91; */
+.head ul li{
+    display: inline-block;
+    list-style: none;
+    font-size: large;
+    margin-top: 30px;
+
+}
+.head ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 10px;
+    color: black;
+}
+.head ul li a:hover{
+    color: whitesmoke;
+  
+}
+/* about meee */
+.about{
+    border: solid 1px white;
+    height: 700px;
+    width: 1520px;
+    display: flex;  
+}
+.photo{
+    border: solid 0px whitesmoke;
+    height: 700px;
+    width: 600px;
+}
+.pic{
+    border: solid 0px whitesmoke;
+    height: 325px;
+    width: 325px;
+    border-radius: 50%;
+    margin:150px auto;
+    margin-right: 2cm;
+    background-image: url(./img/chayagada\ b&w.jpg);
+    background-size: cover;
+    background-color: whitesmoke;   
+    
+}
+.pic:hover{
+    transform: scale(1.1);
+}
+.self{
+    border: solid 0px whitesmoke;
+    height:700px ;
+    width: 920px;
+}
+.self1{
+    border: solid 0px whitesmoke;
+    height: 400px;
+    width: 700px;
+    margin-top: 100px;
+   
+}
+.self1 h2{
+    color:black ;
+    font-weight: bolder;
+    text-align:left;
+}
+.self1 p{
+    margin-top: 1cm;
+    font-size: large;
+    color:#333;
+}
+.self1 h4{
+    margin-left:5cm;
+    font-weight: lighter;
+}
+.self1 h4 a{
+    text-decoration: none;
+    color:crimson;
+}
+.self1 button{
+    border: solid 0px ;
+    height: 45px;
+    width: 150px;
+    background-color:crimson;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 7cm;
+}
+.self1 button a{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color:crimson;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.self1 button:hover{
+    transform: translateY(-05px); 
+}
+/* education part */
+.cation{
+    border: solid 1px rgb(109, 3, 23);
+    height: 50px;
+    width: 1520px;
+    background:rgb(109, 3, 23);
+    
+}
+.cation h1{
+    font-family: cursive;
+    color: whitesmoke;
+    text-align: center;
+    font-size:xx-large ;
+    margin-top: 30px;
+}
+.cation h1:hover{
+  color:black;
+  
+}
+.education{
+    border: solid 0px;
+    height: 340px;
+    width: 1520px;
+    display: flex;
+    justify-content:center;
+    background: rgb(109, 3, 23);
+}
+.box{
+    border: solid 0px crimson;
+    height: 250px;
+    width: 400px;
+    margin: 70px;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    background-color:#111;
+}
+.box:hover{
+    transform: scale(1.2);
+    
+}
+.box h2{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 20px;
+}
+.box h3{
+    color:darkgoldenrod;
+    margin-left: 20px;
+
+}
+.box p{
+    color:darkgoldenrod;
+    margin-left: 20px;
+    text-align:left
+}
+.education1{
+    border: solid 0px;
+    height: 400px;
+    width: 1520px;
+    display: flex;
+    justify-content: center;
+    background: rgb(109, 3, 23);
+}
+.box1{
+    border: solid 0px crimson;
+    height: 250px;
+    width: 400px;
+    margin: 70px;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    background-color:#111;
+}
+.box1:hover{
+    transform: scale(1.2);
+}
+.box1 h2{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 20px;
+}
+.box1 h3{
+    color:darkgoldenrod;
+    margin-left: 20px;
+
+}
+.box1   p{
+    color:darkgoldenrod;
+    margin-left: 20px;
+    text-align:left
+}
+/* skill part */
+.hskill{
+    
+    border: solid 1px #111;
+    height: 75px;
+    width: 1520px;
+    background:#111;
+}
+.hskill h1{
+    font-family: cursive;
+    color: whitesmoke;
+    text-align: center;
+    font-size:xx-large ;
+    margin-top: 50px;
+}
+.hskill h1:hover{
+    color: rgb(109, 3, 23);
+    
+}
+.myskill{
+    border: solid 1px #111;
+    height: 600px;
+    width: 1520px;
+    display: flex;
+    justify-content: center;
+    background:#111;
+    
+}
+.mys{
+    border: solid 1px #111;
+    height: 300px;
+    width: 350px;
+    align-items: center;
+    margin-top:4cm;
+    background: #111;
+    border-left-color: rgb(109, 3, 23);
+    border-right-color: rgb(109, 3, 23);
+}
+.mys h2{
+    color:darkgoldenrod;
+    text-align: center;
+    margin-top: 20px;
+}
+.mys li{
+    color:gainsboro;
+    margin-left: 20px;
+}
+.mys:hover{
+    transform: scale(1.1);
+}
+/* work part */
+.hwork{
+    border: solid 1px #111;
+    height: 75px;
+    width: 1520px;
+    background:#111;
+}
+.hwork h1{
+    font-family: cursive;
+    color: whitesmoke;
+    text-align: center;
+    font-size:xx-large ;
+    margin-top: 20px;
+}
+.hwork h1:hover{
+    color: rgb(109, 3, 23);
+    
+}
+.mywork{
+    border: solid 1px #111;
+    height: 860px;
+    width: 1520px;
+    
+    display: grid;
+    justify-content:space-evenly;
+    grid-template-columns: auto auto auto ;
+    background-color: #111;
+    
+   
+}
+.pro0  ,.pro1 ,.pro2 ,.pro3 ,.pro4 ,.pro5{
+    border: solid 1px;
+    height: 250px;
+    width: 350px;
+    margin: auto;
+    
+}
+.pro0:hover{
+    transform: translateY(-20px); 
+} 
+.pro0 img{
+    height: 250px;
+    width: 350px;
+    background-size: cover;
+   
+}
+.pro0 a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bolder;
+    color: darkgoldenrod;
+}
+.pro1 img{
+    height: 250px;
+    width: 350px;
+    background-size: cover;
+   
+}
+.pro1 a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bolder;
+    color: darkgoldenrod;
+}
+.pro1:hover{
+    transform: translateY(-20px); 
+} 
+.pro2 img{
+    height: 250px;
+    width: 350px;
+    background-size: cover;
+   
+}
+.pro2 a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bolder;
+    color: darkgoldenrod;
+}
+.pro2:hover{
+    transform: translateY(-20px); 
+} 
+.pro3 img{
+    height: 250px;
+    width: 350px;
+    background-size: cover;
+   
+}
+.pro3 a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bolder;
+    color: darkgoldenrod;
+}
+.pro3:hover{
+    transform: translateY(-20px); 
+} 
+.pro4 img{
+    height: 250px;
+    width: 350px;
+    background-size: cover;
+    
+   
+}
+.pro4 a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bolder;
+    color: darkgoldenrod;
+}
+.pro4:hover{
+    transform: translateY(-20px); 
+} 
+.pro5 img{
+    height: 250px;
+    width: 350px;
+    background-size: cover;
+   
+}
+.pro5 a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bolder;
+    color: darkgoldenrod;
+}
+.pro5:hover{
+    transform: translateY(-20px); 
+} 
+.jshead{
+    border: solid 1px #111;
+    height: 70px;
+    width: 1520px;
+    background-color: #111;
+}
+.jshead h1{
+    font-size:xx-large ;
+    font-family: cursive;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 25px;
+}
+.jshead h1:hover{
+    color: rgb(109, 3, 23);
+}
+.jsproject{
+    border: solid 1px #111;
+    height: 400px;
+    width: 1520px;
+    display: flex;
+    justify-content:center;
+    background-color: #111;  
+}
+.jsbox{
+    border: solid 0px white;
+    height: 236px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.js{
+    border: solid 1px #444;
+    height: 236px;
+    width: 244px;
+    margin: auto;
+}
+/* get in touch */
+.footer{
+    border: solid 1px crimson;
+    height: 150px;
+    width: 1520px;
+    background-color: crimson;
+    font-family: cursive;
+}
+.footer h2{
+    font-size: xx-large;
+    color:whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    font-family: cursive;
+}
+.footer h2:hover{
+    color: #111;
+}
+.footer p{
+    margin: 20px 0px 30px 0px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(20, 20, 20);
+    font-weight: bolder;
+}
+.contact{
+    border: solid 1px crimson;
+    height: 200px;
+    width: 1520px;
+    background-color: crimson;
+    display: flex;
+    justify-content: space-around;
+ 
+}
+.contact a{
+    color: black;
+    margin-right: 0px;
+    margin-top: 100px;
+    transition: all 0.3s linear;
+    font-size: large;
+    text-decoration: none;
+}
+
+.contact a:hover{
+    color: whitesmoke;
+    transform: translateY(-5px);
+}
+.end{
+    border: solid 1px crimson;
+    height: 50px;
+    width: 1520px;
+    background-color: crimson;
+}
+.end p{
+    font-size: medium;
+    font-weight:lighter;
+    text-align:center ;
+    margin-top: 13px;
+}
